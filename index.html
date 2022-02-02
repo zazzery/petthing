@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' href= 'style.css'>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h2><strong>Virtual Pet Sim</strong></h2>
+    </header>
+    <div id="setUserName">
+        <h3>What is your name?</h3>
+        <input id= "userNameInput" type="text" minlength="1" maxlength="30" placeholder="Enter your name!"></input>
+        <button onclick="setUserName()">Submit</button>
+    </div>
+    <div id="greeting"></div>
+    <div id="availablePets">
+        <h3>Available Pets</h3>
+    </div>
+    <div id="selectPet">
+        <!--perhaps change to randomize pets shown and dynamically display names-->
+        <button id="petOneButton" onclick="choosePet(pets[0])">Pet1</button>
+        <button id="petTwoButton" onclick="choosePet(pets[1])">Pet2</button>
+        <button id="petThreeButton" onclick="choosePet(pets[2])">Pet2</button>
+    </div>
+    <div id="youChose"></div>
+    <div id="showStats"></div>
+    <div id="finalizePet">
+        <button onclick="finalizePet()">Choose this pet!</button>
+    </div>
+</div>
+</body>	
+<script src='script.js'></script>
+</html>

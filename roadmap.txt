@@ -1,0 +1,34 @@
+roadmap
+
+user
+    login
+        (done!) input and save username in storage
+        check if text box is empty
+    inventory
+        items to give pets
+        (do you give to them to hold? Or use item from your inventory?)
+            heal
+
+
+pets
+    instances of pets
+        each instance should have base stats plus the ability to change stats depending on how you interact with them!
+        stats
+            base/max HP
+            current HP
+            strength
+            speed
+            defense
+    interact
+        heal
+
+battle
+    opponent based on an instance of a pet
+    battle flow
+        ROUND
+            check pet speed against opponent speed
+            whoever's speed is higher goes first, if speed is the same you go first
+            YOUR TURN
+                attack, do base damage
+                    extra damage if strength is higher than opponent's defense
+            THEIR TURN

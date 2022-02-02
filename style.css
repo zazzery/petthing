@@ -1,0 +1,64 @@
+*{
+
+    font-family: verdana, 'Courier New', Courier, monospace;
+}
+body {
+    background-color: lightseagreen;
+    text-align: center;
+    padding: 50px;
+}
+button {
+    border-color: yellowgreen;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+}
+button:hover {
+    color: white;
+    border-color: white;
+    background-color: lightseagreen;
+    font-weight: bold;
+}
+strong {
+    color:lightsalmon;
+}
+.container {
+    width: 600px;
+    max-width: 85%;
+    min-height: 500px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+div {
+    padding: 5px;
+}
+#fighterImg {
+    background-color: transparent;
+}
+table {
+    display: inline-block;
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    border-style: solid;
+    border-color: black;
+}
+td {
+    width: 50%;
+    text-align: right;
+    border: 0px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: #333;
+}
+#st {
+    text-align: center;
+}
